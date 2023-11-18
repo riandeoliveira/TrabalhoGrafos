@@ -12,6 +12,10 @@ class Graph {
    * Adiciona uma aresta ao grafo.
    */
   addEdge(v, w, weight = 1) {
+    if (weight < 0) {
+      throw new Error("O peso não pode ser menor que 0");
+    }
+    
     if (!this.adjList.get(v)) this.addVertex(v);
     if (!this.adjList.get(w)) this.addVertex(w);
 
