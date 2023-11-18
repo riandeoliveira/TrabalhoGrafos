@@ -1,12 +1,12 @@
 [
-  { "v": "A", "w": "B", "weigth": 1 },
-  { "v": "A", "w": "C", "weigth": 4 },
-  { "v": "A", "w": "D", "weigth": 5 },
-  { "v": "B", "w": "E", "weigth": 3 },
-  { "v": "B", "w": "F", "weigth": 2 },
-  { "v": "E", "w": "I", "weigth": 5 },
-  { "v": "C", "w": "D", "weigth": 7 },
-  { "v": "C", "w": "G", "weigth": 10 },
-  { "v": "D", "w": "G", "weigth": 2 },
-  { "v": "D", "w": "H", "weigth": 6 }
+  { "v": "A", "w": "B", "weight": 1 },
+  { "v": "A", "w": "C", "weight": 4 },
+  { "v": "A", "w": "D", "weight": 5 },
+  { "v": "B", "w": "E", "weight": 3 },
+  { "v": "B", "w": "F", "weight": 2 },
+  { "v": "E", "w": "I", "weight": 5 },
+  { "v": "C", "w": "D", "weight": 7 },
+  { "v": "C", "w": "G", "weight": 10 },
+  { "v": "D", "w": "G", "weight": 2 },
+  { "v": "D", "w": "H", "weight": 6 }
 ]

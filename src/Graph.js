@@ -15,7 +15,7 @@ class Graph {
     if (weight < 0) {
       throw new Error("O peso não pode ser menor que 0");
     }
-    
+
     if (!this.adjList.get(v)) this.addVertex(v);
     if (!this.adjList.get(w)) this.addVertex(w);
 
@@ -75,7 +75,7 @@ class Graph {
    * Monta o grafo com os dados informados.
    */
   fill(data) {
-    data.forEach((edge) => this.addEdge(edge.v, edge.w, edge.weigth));
+    data.forEach((edge) => this.addEdge(edge.v, edge.w, edge.weight));
   }
 
   /**
