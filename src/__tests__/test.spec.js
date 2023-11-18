@@ -38,4 +38,10 @@ describe("Testes da classe Graph e seus métodos", () => {
   it("Deveria retornar a lista de vértices corretamente", () => {
     expect(graph.getVertices()).toEqual(["A", "B", "C", "D", "E", "F", "I", "G", "H"]);
   })
+
+  it("Deveria soltar um erro quando o peso (weight) for menor que zero", () => {
+    data[0].weight = -1;
+
+    expect(() => graph.fill(data)).toThrow("O peso não pode ser menor que 0");
+  });
 })
