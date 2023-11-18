@@ -43,6 +43,9 @@ class Graph {
     this.vertices = [];
   }
 
+  /**
+   * Calcula o caminho de custo mínimo entre vértices do grafo.
+   */
   dijkstra(start) {
     const distances = {};
     const unvisited = new Set(this.vertices);
