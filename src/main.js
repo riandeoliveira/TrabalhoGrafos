@@ -1,11 +1,16 @@
 const Graph = require("./classes/Graph");
-const data = require("./data/graph.json");
 
-const graph = new Graph();
+const g = new Graph()
 
-graph.fill(data)
+g.addEdge('A', 'B')
+g.addEdge('A', 'C')
+g.addEdge('A', 'D')
+g.addEdge('B', 'E')
+g.addEdge('B', 'F')
+g.addEdge('E', 'I')
+g.addEdge('C', 'D')
+g.addEdge('C', 'G')
+g.addEdge('D', 'G')
+g.addEdge('D', 'H')
 
-const startNode = "A";
-const shortestDistances = graph.dijkstra(startNode);
-
-console.log(`Menores distâncias a partir do nó ${startNode}:`, shortestDistances);
+console.log(g.toString())
