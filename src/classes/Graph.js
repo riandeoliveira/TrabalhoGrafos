@@ -78,7 +78,9 @@ class Graph {
    * Monta o grafo com os dados informados.
    */
   fill(data) {
-    data.forEach((edge) => this.addEdge(edge.v, edge.w, edge.weight));
+    for (const edge of data) {
+      this.addEdge(edge.v, edge.w, edge.weight)
+    }
   }
 
   /**
