@@ -9,3 +9,5 @@ const startNode = "A";
 const shortestDistances = graph.dijkstra(startNode);
 
 console.log(`Menores distâncias a partir do nó ${startNode}:`, shortestDistances);
+console.log();
+console.log(graph.toString());
