@@ -4,9 +4,9 @@
   { "v": "A", "w": "D", "weight": 5 },
   { "v": "B", "w": "E", "weight": 3 },
   { "v": "B", "w": "F", "weight": 2 },
-  { "v": "E", "w": "I", "weight": 5 },
   { "v": "C", "w": "D", "weight": 7 },
   { "v": "C", "w": "G", "weight": 10 },
   { "v": "D", "w": "G", "weight": 2 },
-  { "v": "D", "w": "H", "weight": 6 }
+  { "v": "D", "w": "H", "weight": 6 },
+  { "v": "E", "w": "I", "weight": 5 }
 ]
